@@ -26,8 +26,9 @@ body {
   font-size: 4rem;
 }
 
-/* assignment - the rest of CSS */
+/* ASSISGNMENT - THE REST OF CSS*/
 
+/* layout the emoji cards */
 .emojis {
     display: grid;
     grid-template-columns: 400px 400px;
@@ -35,19 +36,22 @@ body {
     gap: 20px;
 }
 
+/* layout the content of the emoji cards */
 .emoji {
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
+/* changed order of emoji */
 .icon {
     display: flex;
     order: -1;
     justify-content: center;
 }
 
-.emoji a {
-    /* display: flex; */
-    margin-top: auto;
+/* aligned the button at the bottom */
+.emoji p {
+  flex-grow: 1;
 }
 
